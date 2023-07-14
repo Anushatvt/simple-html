@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		making a form-
+	</title>
+</head>
+<body>
+	<center>
+		<h2> registration page</h2>
+	<form action="day4.html"> <!--just as ref-->
+	<p><input type="text" placeholder="Enter username"/> </p>
+	<p>DOB:-<input type="date"> </p>
+	<p> <input type="email" placeholder="Enter email" required/></p>
+	<p> <input type="password"placeholder="Enter password"/></p>
+	<p> <input type="password"placeholder="Confirm password"/></p>
+	<p> 
+		<label>Male</label> <input name="gender" type="radio"/>
+		<label>Female</label><input name="gender" type="radio"/>
+			</p>
+			<p>
+				<select>
+					<option>Select a city</option>
+					<option>Vijayawada</option>
+					<option>Hyderabad</option>
+					<option>Vizag</option>
+					<option>Kadapa</option>
+				</select>
+			</p>
+			<p>
+				<textarea placeholder="Enter your address"/></textarea>
+			</p>
+			<p><input type="file"/></p>
+			<input type="checkbox"/>
+
+			<button>Register</button>
+		</form>
+	</center>
+
+	
+</body>
+</html>
